@@ -11,4 +11,4 @@ statusChoice="//div[@role='listbox']//div[2]"
 submitButton="//button[@type='submit']"
 saveAssertion="//div[normalize-space(text()='Successfully Updated')]"
 
-serchAssertion="//span[contains(text(),'(2) Records Found')]"
+serchAssertion="(//div[@class='oxd-table-card'])[2]//child::div[3]"

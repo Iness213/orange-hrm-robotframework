@@ -15,3 +15,4 @@ TC2-Search for user
     Open admin page
     Enter search filter
     Submit search
+    Verify search success

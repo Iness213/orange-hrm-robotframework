@@ -31,4 +31,5 @@ Submit search
     Click Element    ${submitButton}
 
 Verify search success
-    
+    Wait Until Element Is Visible    ${serchAssertion}
+    Element Text Should Be    ${serchAssertion}    Admin    
